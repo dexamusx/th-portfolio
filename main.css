@@ -30,7 +30,7 @@ h1 {
 #navigation{
 	grid-area: nav;
 	padding: 1.2em;
-	background-color: green;
+	background-color: rebeccapurple;
 	border: 2px solid black;
 }
 #content{
