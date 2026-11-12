@@ -36,7 +36,7 @@ h1 {
 #content{
 	grid-area: main;
 	padding: 1.2em;
-	background-color: cyan;
+	background-color: black;
 	border: 2px solid black;
 }
 #ads{
