@@ -1,0 +1,53 @@
+.container {
+	display: grid;
+	grid-template-columns: 150px 1fr 150px;
+	grid-template-rows: 100px 1fr 100px;
+	grid-template-areas:
+		"header header header"
+		"nav main sidebar"
+		"nav footer footer";
+	height: 90vh;
+	column-gap: 5px;
+	row-gap: 5px;
+	margin: 10px;
+}
+
+body {
+	background-image: url(https://spaerkysnet.neocities.org/New%20Page%201_files/image001.gif);
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+#header{
+	grid-area: header;
+	padding: 1.2em;
+	background-color: red;
+	border: 2px solid black;
+}
+#navigation{
+	grid-area: nav;
+	padding: 1.2em;
+	background-color: green;
+	border: 2px solid black;
+}
+#content{
+	grid-area: main;
+	padding: 1.2em;
+	background-color: cyan;
+	border: 2px solid black;
+}
+#ads{
+	grid-area: sidebar;
+	padding: 1.2em;
+	background-color: yellow;
+	border: 2px solid black;
+}
+#footer{
+	grid-area: footer;
+	padding: 1.2em;
+	background-color: pink;
+	border: 2px solid black;
+}
