@@ -22,7 +22,9 @@ h1 {
 }
 
 sitetab {
+	text-align: center;
 	background-color: black;
+	color: springgreen;
 }
 
 #header{
