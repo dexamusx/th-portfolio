@@ -33,13 +33,13 @@ sitetab {
 #navigation{
 	grid-area: nav;
 	padding: 1.2em;
-	background-color: black;
+	background-image: url(https://i.ibb.co/Bz3CQ8M/ss133.gif);
 	border: 2px solid black;
 }
 #content{
 	grid-area: main;
 	padding: 1.2em;
-	background-image: url(https://i.ibb.co/Bz3CQ8M/ss133.gif);
+	background-color: black;
 	border: 2px solid black;
 }
 #ads{
