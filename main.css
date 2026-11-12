@@ -33,6 +33,18 @@ bodytext {
 	color: white;
 }
 
+footertext {
+	background-color: black;
+	color: lime;
+}
+
+leftpic {
+    float:left;
+}
+righttext {
+    float:right;
+}
+
 #header{
 	grid-area: header;
 	padding: 1.2em;
@@ -59,4 +71,16 @@ bodytext {
 	grid-area: footer;
 	padding: 1.2em;
 	border: 2px solid black;
+}
+
+div.flexbox {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-conent: space-evenly;
+  align-items: start;
+}
+div.flexbox .element {
+  padding: 10px;
+  flex-grow: 1;
 }
