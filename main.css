@@ -28,6 +28,11 @@ sitetab {
 	color: lime;
 }
 
+bodytext {
+	color: white;
+	text-align: center;
+}
+
 #header{
 	grid-area: header;
 	padding: 1.2em;
