@@ -21,6 +21,10 @@ h1 {
 	color: white;
 }
 
+sitetab {
+	background-color: aliceblue;
+}
+
 #header{
 	grid-area: header;
 	padding: 1.2em;
