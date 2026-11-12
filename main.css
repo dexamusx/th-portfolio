@@ -29,7 +29,7 @@ h1 {
 #navigation{
 	grid-area: nav;
 	padding: 1.2em;
-	background-color: rebeccapurple;
+	background-color: darkslategray;
 	border: 2px solid black;
 }
 #content{
@@ -41,12 +41,11 @@ h1 {
 #ads{
 	grid-area: sidebar;
 	padding: 1.2em;
-	background-color: yellow;
 	border: 2px solid black;
 }
 #footer{
 	grid-area: footer;
 	padding: 1.2em;
-	background-color: pink;
+	background-color: midnightblue;
 	border: 2px solid black;
 }
