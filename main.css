@@ -38,12 +38,6 @@ footertext {
 	color: lime;
 }
 
-leftpic {
-    float:left;
-}
-righttext {
-    float:right;
-}
 
 #header{
 	grid-area: header;
