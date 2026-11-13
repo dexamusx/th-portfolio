@@ -27,18 +27,24 @@ sitetab {
 	background-color: black;
 	color: lime;
 }
-
 bodytext {
 	text-align: center;
 	color: white;
 	font-size: 24px;
 }
-
 footertext {
 	background-color: black;
 	color: lime;
 }
-
+sectionlabel {
+	text-align: center;
+	color: turquoise;
+}
+restag {
+	color: white;
+	padding: 1.2em;
+	background-image: url(assets/other/butterfly.gif);
+}
 
 #header{
 	grid-area: header;
@@ -72,10 +78,15 @@ div.flexbox {
   display: flex;
   width: 100%;
   padding: 10px;
-  justify-conent: space-evenly;
+  justify-content: space-evenly;
   align-items: start;
 }
 div.flexbox .element {
   padding: 10px;
   flex-grow: 1;
+}
+div.flexbox .box {
+	padding: 1.2em;
+	flex-grow: 1;
+	border: 2px solid firebrick;
 }
